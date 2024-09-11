@@ -1,0 +1,6 @@
+CCU,Descripción,Dirección IP,Disponible,FW,Restablecer FW,Última modificación
+BR Compacta,BR OPAL,172.19.1.141,No,BZ0021 (PT0110),No,DAM
+BR Compacta,BR dSPACE,172.19.1.139,No,BZ0021 (PT0110),No,DAM
+BR Distribuida,BR Dist. OPAL,172.19.1.142,Si,BZ0009 (PT0159),No,DAM
+AR,AR OPAL,172.19.1.140,Si,AZ3985 (PT0204),No,DAM
+AR,AR oficina,172.19.1.22,Si,AZ2004 (PT0085),No,DAM
