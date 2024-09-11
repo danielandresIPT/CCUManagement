@@ -96,7 +96,7 @@ def main():
                     st.session_state['data'][i]["Disponible"] = available
                     st.session_state['data'][i]["FW"] = fw
                     st.session_state['data'][i]["Restablecer FW"] = restore_fw
-                    st.session_state['data'][i]["Última modificación"] = user_name
+                    st.session_state['data'][i]["Última modificación"] = st.session_state['user_name']
                     save_data(st.session_state['data'])  # Save to CSV
                     st.success(f"Camnbios guardados para {row['Descripción']}.")
                     st.rerun()  # Reload the app to reflect changes in the table
